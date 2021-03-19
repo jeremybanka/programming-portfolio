@@ -8,6 +8,7 @@ _SOON TO BE live on [Github Pages](jeremybanka.github.io/programming-portfolio)_
 
 * 📄 HTML5
 * 💅 SASS ➡️ CSS3 (thanks to Live Sass Compiler by Ritwick Dey)
+* 👨🏻‍🎨 Adobe Illustrator (comps/planning/writing)
 * 🅰️ All fonts and icons designed by me in Georg Seifert's _[Glyphs.app]_ 💚💚💚
 
 ## Description
