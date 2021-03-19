@@ -1,0 +1,19 @@
+$theia-weights: 
+  ('100')
+  ('200')
+  ('300')
+  ('400')
+  ('500');
+@each $weight in $theia-weights {
+  @font-face {
+    font-family: Theia;
+    font-weight: #{$weight};
+    src: url('./fonts/Theia0.2-#{$weight}.woff, .woff');
+    src: url('./fonts/Theia0.2-#{$weight}.woff2, .woff2');
+  }
+}
+@font-face {
+  font-family: Manufab;
+  src: url('./fonts/ManufabGX.woff, .woff');
+  src: url('./fonts/ManufabGX.woff2, .woff2');
+}
