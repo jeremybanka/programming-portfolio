@@ -3,16 +3,18 @@ html {
   * {
     font-family: Manufab;
     font-variation-settings: 'wght' 400;
+    font-size: 21px;
   }
 }
+
 body {
-  width: calc(100vw - 20px);
+  width: calc(100vw - 30px);
   margin: auto;
   display: grid;
   grid-template: 
-    [row1-start] "top   " auto [row1-end]
-    [row2-start] "middle" auto [row1-end]
-    [row3-start] "bottom" auto [row2-end]
+    [row1-start] 'top   ' auto [row1-end]
+    [row2-start] 'middle' auto [row1-end]
+    [row3-start] 'bottom' auto [row2-end]
     /             auto;
   header {
     grid-area: top;
@@ -21,28 +23,79 @@ body {
     width: 100%;
     .text-wrap {
       margin: 40px 0;
-      h1 {
-        font-variation-settings: 'wght' 700;
-        font-size: 13vw;
-        line-height: 11vw;
-        margin: 0 0 -0.5vw 1vw;
-      }
-      h2 {
-        font-variation-settings: 'wght' 200;
-        font-size: 36px;
-        line-height: 54px;
-        margin: 0;
-      }
     }
     .img-wrap {
-      height: calc(120vw - 20px);      
+      width: calc(100vw - 30px);  
+      height: 120vw;
+      max-height: 67vh;    
       display: flex;
       flex-direction: column;
       align-items: center;
       overflow: hidden;
+      margin-bottom: 36px;
       img {
-        width: 120%;
+        width: 75vh;
+        min-width: 120%;
       }
     }
+  }
+  main {
+    grid-area: middle;
+    section {
+      margin-bottom: 54px;
+      article {
+        ~ article {
+          margin-top: 54px;
+        }
+      }
+    }
+  }
+}
+h1 {
+  font-variation-settings: 'wght' 700;
+  font-size: 13vw;
+  line-height: 11vw;
+  margin: 0 0 -0.5vw 1vw;
+}
+h2, h4 {
+  font-variation-settings: 'wght' 100;
+  font-size: 36px;
+  line-height: 54px;
+  margin: 0;
+}
+h2 { margin-left: 5px;}
+h3 {
+  mark {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #f9f9f9;
+  padding: 5px 1px;
+  margin-top: 20px;
+  background: black;
+  }
+}
+h4 {
+  text-transform: lowercase;
+
+}
+ul.links  {
+  display: flex;
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 0;
+  li ~ li { padding-left: 20px }
+}
+a {
+  font-family: Theia;
+  color: #05f;
+  font-weight: 500;
+  text-decoration: none;
+}
+p { 
+  max-width: 40em;
+  margin: 0;
+  ~ p {
+    margin-top: 1em;
   }
 }
