@@ -1,4 +1,4 @@
-#### A hub connecting my code school projects 
+#### Programming Portfolio: A hub connecting my coding projects.
 
 _Live on [Github Pages](https://jeremybanka.github.io/programming-portfolio)_
 
