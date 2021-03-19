@@ -1,0 +1,66 @@
+html {
+  background: #f9f9f9;
+}
+
+html * {
+  font-family: Manufab;
+  font-variation-settings: 'wght' 400;
+}
+
+body {
+  width: calc(100vw - 20px);
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  grid-template: [row1-start] "top   " auto [row1-end] [row2-start] "middle" auto [row1-end] [row3-start] "bottom" auto [row2-end]/auto;
+}
+
+body header {
+  grid-area: top;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+body header .text-wrap {
+  margin: 40px 0;
+}
+
+body header .text-wrap h1 {
+  font-variation-settings: 'wght' 700;
+  font-size: 13vw;
+  line-height: 11vw;
+  margin: 0 0 -0.5vw 1vw;
+}
+
+body header .text-wrap h2 {
+  font-variation-settings: 'wght' 200;
+  font-size: 36px;
+  line-height: 54px;
+  margin: 0;
+}
+
+body header .img-wrap {
+  height: calc(120vw - 20px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+body header .img-wrap img {
+  width: 120%;
+}
+/*# sourceMappingURL=core.css.map */
