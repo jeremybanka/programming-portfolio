@@ -22,7 +22,7 @@ h3 {
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #f9f9f9;
+  color: var(--bg-color);
   padding: 5px 5px 7px;
   margin-top: 20px;
   background: black;
@@ -41,7 +41,7 @@ p, li, ol {
 }
 a {
   font-family: Theia;
-  color: #05f;
+  color: var(--link-color);
   font-weight: 500;
   text-decoration: none;
 }

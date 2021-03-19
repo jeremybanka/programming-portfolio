@@ -1,5 +1,12 @@
+:root {
+  --silver: #f9f9f9;
+  --cerulean: #05f;
+  --bg-color: var(--silver);
+  --link-color: var(--cerulean);
+}
+
 html {
-  background: #f9f9f9;
+  background: var(--bg-color);
 }
 
 body {

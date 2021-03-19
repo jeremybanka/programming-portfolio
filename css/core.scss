@@ -1,4 +1,10 @@
-html { background: #f9f9f9 }
+:root {
+  --silver: #f9f9f9;
+  --cerulean: #05f;
+  --bg-color: var(--silver);
+  --link-color: var(--cerulean);
+}
+html { background: var(--bg-color) }
 body {
   width: calc(100vw - 30px);
   margin: auto;
