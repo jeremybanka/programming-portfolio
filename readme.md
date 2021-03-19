@@ -1,6 +1,6 @@
 #### A hub connecting my code school projects 
 
-_SOON TO BE live on [Github Pages](jeremybanka.github.io/programming-portfolio)_
+_SOON TO BE live on [Github Pages](https://jeremybanka.github.io/programming-portfolio)_
 
 #### By Jeremy Banka
 
@@ -17,7 +17,14 @@ School project at Epicodus: A static website focusing on css styling and broad c
 
 ## Setup/Installation Requirements
 
+* Clone this repo: `git clone https://github.com/jeremybanka/programming-portfolio`
+* Open `index.html` in your favorite web browser
+* If you want to play with the code, make sure you're running Ritwick Dey's Live Sass Compiler. Otherwise your changes to the `scss` won't take effect!
+
 ## Known Bugs
+
+* The css for the responsive layout isn't broken but it's definitely awkward and a little sloppy.
+* The body text font is lacking working parentheses, so I've just avoided using them.
 
 ## License
 
