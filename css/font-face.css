@@ -38,4 +38,28 @@
   src: url("./fonts/ManufabGX.woff") format("woff");
   src: url("./fonts/ManufabGX.woff2") format("woff2");
 }
+
+@font-face {
+  font-family: 'Brahmin';
+  font-style: regular;
+  src: url("./fonts/Brahmin-4r.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Brahmin';
+  font-style: italic;
+  src: url("./fonts/Brahmin-4i.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Uruz';
+  font-style: regular;
+  src: url("./fonts/Uruz-5c.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Xeno';
+  font-style: regular;
+  src: url("./fonts/Xeno-4R.otf") format("opentype");
+}
 /*# sourceMappingURL=font-face.css.map */
