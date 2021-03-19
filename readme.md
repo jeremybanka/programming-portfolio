@@ -1,6 +1,6 @@
 #### A hub connecting my code school projects 
 
-_SOON TO BE live on [Github Pages](https://jeremybanka.github.io/programming-portfolio)_
+_Live on [Github Pages](https://jeremybanka.github.io/programming-portfolio)_
 
 #### By Jeremy Banka
 
@@ -9,7 +9,7 @@ _SOON TO BE live on [Github Pages](https://jeremybanka.github.io/programming-por
 * 📄 HTML5
 * 💅 SASS ➡️ CSS3 (thanks to Live Sass Compiler by Ritwick Dey)
 * 👨🏻‍🎨 Adobe Illustrator (comps/planning/writing)
-* 🅰️ All fonts and icons designed by me in Georg Seifert's _[Glyphs.app]_ 💚💚💚
+* 🅰️ All fonts and icons designed by me in Georg Seifert's _superb_  [Glyphs.app](https://glyphsapp.com) 💚💚💚
 
 ## Description
 
