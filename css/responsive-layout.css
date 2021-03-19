@@ -1,0 +1,47 @@
+:root {
+  --thin-layout: 
+    [row1-start] 'head' auto [row1-end]
+    [row2-start] 'main' auto [row2-end]
+    [row3-start] 'foot' auto [row3-end]
+    /             100%;
+  --wide-layout: 
+    [row1-start] 'head main' auto [row1-end]
+    [row2-start] 'foot foot' auto [row2-end]
+    /             60%  40%;
+}
+
+body {
+  grid-template: var(--thin-layout);
+}
+
+@media (min-width: 750px) {
+  body header .text-wrap h1 {
+    font-size: 90px;
+  }
+  body header .img-wrap {
+    max-width: 800px;
+    max-height: 800px;
+  }
+}
+
+@media (min-width: 1500px) {
+  body {
+    grid-template: var(--wide-layout);
+    max-width: 90%;
+    gap: 20px;
+  }
+  body header {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: auto;
+    position: fixed;
+  }
+  body main {
+    padding-top: 11vw;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+/*# sourceMappingURL=responsive-layout.css.map */
