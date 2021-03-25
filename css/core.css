@@ -85,10 +85,25 @@ body main section article ul.links {
 
 body main section article ul.links li {
   margin-top: 0;
+  cursor: pointer;
+  border-bottom: 2px dotted var(--cerulean);
+  -webkit-transition-property: background;
+  transition-property: background;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
 }
 
 body main section article ul.links li ~ li {
-  padding-left: 20px;
+  margin-left: 20px;
+}
+
+body main section article ul.links li a {
+  display: block;
+  height: 34px;
+}
+
+body main section article ul.links li:hover {
+  background-color: var(--medium-shade);
 }
 
 body main section article ol {
