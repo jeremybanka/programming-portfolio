@@ -86,7 +86,7 @@ body main section article ul.links {
 body main section article ul.links li {
   margin-top: 0;
   cursor: pointer;
-  border-bottom: 2px dotted var(--cerulean);
+  border-bottom: 2px dotted var(--link-color);
   -webkit-transition-property: background;
   transition-property: background;
   -webkit-transition-duration: 200ms;

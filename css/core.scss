@@ -51,7 +51,7 @@ body {
           li {
             margin-top: 0;
             cursor: pointer;
-            border-bottom: 2px dotted var(--cerulean);
+            border-bottom: 2px dotted var(--link-color);
             transition-property: background;
             transition-duration: 200ms;
             ~ li { 
