@@ -1,6 +1,7 @@
 :root {
   --silver: #f9f9f9;
   --cerulean: #05f;
+  --medium-shade: #3333;
   --bg-color: var(--silver);
   --link-color: var(--cerulean);
 }
@@ -93,5 +94,17 @@ body main section article ul.links li ~ li {
 body main section article ol {
   -webkit-padding-start: 80px;
           padding-inline-start: 80px;
+}
+
+body footer {
+  grid-area: foot;
+  height: 10vh;
+  position: relative;
+  float: left;
+}
+
+body footer p {
+  color: var(--medium-shade);
+  mix-blend-mode: multiply;
 }
 /*# sourceMappingURL=core.css.map */

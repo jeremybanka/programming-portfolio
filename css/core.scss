@@ -1,6 +1,7 @@
 :root {
   --silver: #f9f9f9;
   --cerulean: #05f;
+  --medium-shade: #3333;
   --bg-color: var(--silver);
   --link-color: var(--cerulean);
 }
@@ -58,6 +59,16 @@ body {
           padding-inline-start: 80px;
         }
       }
+    }
+  }
+  footer {
+    grid-area: foot;
+    height: 10vh;
+    position: relative;
+    float: left;
+    p {
+      color: var(--medium-shade);
+      mix-blend-mode: multiply;
     }
   }
 }
